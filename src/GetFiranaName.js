@@ -35,7 +35,7 @@ export default async function GetFiranaName(name) {
         contents: prompt,
       });
       
-      console.log(prompt)
-      console.log(response.text);
+    //   console.log(prompt)
+    //   console.log(response.text);
       return response.text;
 }
