@@ -70,7 +70,7 @@ const handleCopy= () =>{
         {
           isgenerationstarted && (
           <div className=' w-screen h-screen bg-[rgba(11,11,11,0.35)] absolute top-0 left-0 z-20 backdrop-blur-sm flex justify-center items-center px-5'>
-            <div className='w-full max-w-xl h-[60%] max-h-[700px] border border-[#ff590074] rounded-lg bg-[rgb(0,0,0)] overflow-hidden relative flex flex-col justify-start items-center '>
+            <div className='w-full max-w-xl h-[80%] lg:h-[60%]  max-h-[700px] border border-[#ff590074] rounded-lg bg-[rgb(0,0,0)] overflow-hidden relative flex flex-col justify-start items-center '>
               <div className='w-full border-b-[1px] border-[#ff590067] absolute right-0 top-0 flex justify-end'>
                 <div className='relative w-full h-[30px] border-b-[1px] border-[#ff590056] flex justify-center items-center'>
                   <p className='text-[#FF5900] text-sm'>
@@ -113,13 +113,14 @@ const handleCopy= () =>{
                     <img className='h-full' src={face}/>
                   </div>
                   <div className='share-tag w-full justify-center items-center px-4 py-1 absolute bottom-0 left-0'>
-                      <h2 className='text-center text-sm'>
+                    <button className='bg-[#FF5900] px-2 py-1 text-sm rounded-xl hover:bg-[#ff5900dd] ' onClick={handleCopy}>Share</button>
+                      <h2 className='text-center text-sm mt-2'>
                         <span className='tracking-tighter leading-[-8px] bg-gradient-to-b from-[#DFA204] via-[#FF5900] to-[#DFA204] bg-clip-text text-transparent '>
-                          Share this in your story <br/>or<br/> I'll eat you.
+                          Share this in your story or I'll eat you.
                         </span> 😭😂😭😂
                       </h2>
-                      <button className='bg-[#FF5900] px-2 py-1 text-sm rounded-xl hover:bg-[#ff5900dd] mt-2' onClick={handleCopy}>Share</button>
-                      <p className='text-xs bg-gradient-to-b from-[#DFA204] via-[#FF5900] to-[#DFA204] bg-clip-text text-transparent mt-4'>
+                      
+                      <p className='text-xs opacity-[90%] bg-gradient-to-b from-[#DFA204] via-[#FF5900] to-[#DFA204] bg-clip-text text-transparent mt-4'>
                         try it out at dragon.vercel.app. built with ❤️ by vishal.
                       </p>
                   </div>
