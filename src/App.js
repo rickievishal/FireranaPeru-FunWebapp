@@ -33,7 +33,7 @@ function copyText(text = "say") {
 
 
 const handleCopy= () =>{
-  copyText("dragon.vercel.app");
+  copyText("firefirefire.vercel.app");
 }
   const handleNameGenerate = async ()=>{
     
@@ -121,7 +121,7 @@ const handleCopy= () =>{
                       </h2>
                       
                       <p className='text-xs opacity-[90%] bg-gradient-to-b from-[#DFA204] via-[#FF5900] to-[#DFA204] bg-clip-text text-transparent mt-4'>
-                        try it out at dragon.vercel.app. built with ❤️ by vishal.
+                        try it out at firefirefire.vercel.app. built with ❤️ by vishal.
                       </p>
                   </div>
                 </>
